@@ -74,19 +74,19 @@ if st.session_state.page == "ucapan":
     st.markdown("""
     <h1 style='text-align:center; color:#FF69B4;'>🎂 SELAMAT ULANG TAHUN RATIH YANG KE-22 🎂</h1>
     <div class='message-box'>
-        <p>Hari ini istimewa banget karena kamu berulang tahun, Ratih! 🌸</p>
+        
         <p>Semoga di usia 22 tahun ini kamu semakin bahagia, kuat, dan penuh berkah 💖</p>
         <p>Teruslah jadi pribadi yang ceria dan menyebarkan energi positif ke sekitar ✨</p>
-        <p>Selamat menikmati hari spesialmu, kamu pantas mendapatkan yang terbaik! 🎁🎊</p>
+        <p>Dan selalu diberikan kesehatan dan keberkahan dalam menjalani Hidup 💌</p>
+        
     </div>
     """, unsafe_allow_html=True)
 
     time.sleep(1.5)
     st.success(random.choice([
-        "🌟 Dunia sedang merayakan kamu hari ini!",
-        "💐 Kamu luar biasa — tetap semangat dan percaya diri!",
-        "🎈 Jangan lupa tersenyum — kamu pantas bahagia!",
-        "💖 Tahun ke-22 ini akan jadi awal dari banyak hal indah!"
+        
+        "🎈 Jangan lupa tersenyum — kamu pantas bahagia!"
+        
     ]))
 
     st.markdown("<br>", unsafe_allow_html=True)
@@ -105,11 +105,11 @@ Kamu tumbuh menjadi pribadi yang kuat, penuh kasih, dan menginspirasi orang-oran
 <p>Di usia ini, semoga semua langkahmu selalu dipenuhi keberanian untuk mengejar mimpi.
 Semoga kamu tidak pernah kehilangan senyum yang membuat dunia di sekitarmu terasa hangat.</p>
 
-<p>Terima kasih sudah menjadi dirimu sendiri — apa adanya, tulus, dan selalu berusaha memberi yang terbaik untuk orang lain.
-Semoga kebahagiaan datang tanpa kamu minta, dan cinta selalu menemukanmu di setiap perjalanan hidupmu. 💖</p>
+<p>Terima kasih sudah menjadi dirimu sendiri — apa adanya, tulus, dan selalu berusaha memberi yang terbaik.
+Semoga kebahagiaan datang tanpa kamu minta, dan cinta selalu menemukanmu dan menemanimu di setiap perjalanan hidupmu. 💖</p>
 
 <p style='text-align:center; font-weight:bold; color:#FF69B4; font-size:20px;'>
-Selamat ulang tahun sekali lagi, Ratih. Dunia lebih indah dengan adanya kamu. 🌸
+Selamat ulang tahun sekali lagi, Teman level 6 ku. Semoga kamu selalu bahagia dan Terus bareng aku wkwkwkw. 🌸
 </p>
 </div>"""
 
