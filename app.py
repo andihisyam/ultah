@@ -93,7 +93,7 @@ if st.session_state.page == "ucapan":
 
 # --- HALAMAN 2: PESAN PANJANG ---
 elif st.session_state.page == "pesan":
-    html_pesan = """<h2 style='text-align:center; color:#FF69B4;'>💌 Pesan Panjang untuk Ratih</h2>
+    html_pesan = """<h2 style='text-align:center; color:#FF69B4;'>💌 SURAT CINTA</h2>
 <div class='message-box'>
 <p>Ratih, selamat ulang tahun yang ke-22 🎂</p>
 
