@@ -97,9 +97,6 @@ elif st.session_state.page == "pesan":
 <div class='message-box'>
 <p>Ratih, selamat ulang tahun yang ke-22 🎂</p>
 
-<p>22 tahun bukan sekadar angka. Itu adalah kumpulan momen, tawa, air mata, perjuangan, dan kebahagiaan yang sudah kamu lalui dengan luar biasa.
-Kamu tumbuh menjadi pribadi yang kuat, penuh kasih, dan menginspirasi orang-orang di sekitarmu.</p>
-
 <p>Di usia ini, semoga semua langkahmu selalu dipenuhi keberanian untuk mengejar mimpi.
 Semoga kamu tidak pernah kehilangan senyum yang membuat dunia di sekitarmu terasa hangat.</p>
 
