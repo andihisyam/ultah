@@ -66,31 +66,29 @@ def go_to(page_name):
 
 
 # --- HALAMAN 1: UCAPAN UTAMA ---
+
 if st.session_state.page == "ucapan":
     rain(emoji="🎈", font_size=40, falling_speed=5, animation_length=5)
     rain(emoji="🎉", font_size=35, falling_speed=3, animation_length=5)
     st.balloons()
 
-    st.markdown("""
-    <h1 style='text-align:center; color:#FF69B4;'>🎂 SELAMAT ULANG TAHUN RATIH YANG KE-22 🎂</h1>
-    <div class='message-box'>
-        
-        <p>Semoga di usia 22 tahun ini kamu semakin bahagia, kuat, dan penuh berkah 💖</p>
-        <p>Teruslah jadi pribadi yang ceria dan menyebarkan energi positif ke sekitar ✨</p>
-        <p>Dan selalu diberikan kesehatan dan keberkahan dalam menjalani Hidup 💌</p>
-        
-    </div>
-    """, unsafe_allow_html=True)
+    html_ucapan = """<h1 style='text-align:center; color:#FF69B4;'>🎂 SELAMAT ULANG TAHUN RATIH YANG KE-22 🎂</h1>
+<div class='message-box'>
+<p>Semoga di usia 22 tahun ini kamu semakin bahagia, kuat, dan penuh berkah 💖</p>
+<p>Teruslah jadi pribadi yang ceria dan menyebarkan energi positif ke sekitar ✨</p>
+<p>Dan selalu diberikan kesehatan dan keberkahan dalam menjalani Hidup 💌</p>
+</div>"""
+
+    st.markdown(html_ucapan, unsafe_allow_html=True)
 
     time.sleep(1.5)
     st.success(random.choice([
-        
         "🎈 Jangan lupa tersenyum — kamu pantas bahagia!"
-        
     ]))
 
     st.markdown("<br>", unsafe_allow_html=True)
     st.button("➡️ Next jika Kepo 💌", on_click=lambda: go_to("pesan"))
+
 
 
 # --- HALAMAN 2: PESAN PANJANG ---
