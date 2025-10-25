@@ -20,7 +20,7 @@ st.markdown("""
     background: none;
 }
 
-/* Judul utama */
+/* Judul dan teks default */
 h1, h2, h3, p, div {
     color: #333333 !important;
 }
@@ -36,12 +36,23 @@ h1, h2, h3, p, div {
     color: #333333;
 }
 
-/* Tombol navigasi */
-button[kind="primary"] {
-    background-color: #FF69B4 !important;
-    color: white !important;
-    border-radius: 10px !important;
-    font-weight: bold !important;
+/* Tombol utama */
+div.stButton > button:first-child {
+    background-color: white;
+    color: #FF69B4;
+    border-radius: 10px;
+    border: 2px solid #FF69B4;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Efek hover tombol */
+div.stButton > button:hover {
+    background-color: #FF69B4;
+    color: white;
+    transform: scale(1.05);
 }
 </style>
 """, unsafe_allow_html=True)
