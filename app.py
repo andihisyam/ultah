@@ -5,6 +5,23 @@ from streamlit_extras.let_it_rain import rain
 
 # --- KONFIGURASI DASAR ---
 st.set_page_config(page_title="🎂 Selamat Ulang Tahun Ratih!", page_icon="🎉", layout="centered")
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #fff5f8; /* pink pastel background */
+        color: #333333;
+    }
+    [data-testid="stAppViewContainer"] {
+        background-color: #fff5f8;
+    }
+    [data-testid="stHeader"], [data-testid="stToolbar"] {
+        background: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # --- STATE HALAMAN ---
 if "page" not in st.session_state:
