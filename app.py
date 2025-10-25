@@ -84,25 +84,24 @@ if st.session_state.page == "ucapan":
 
 # --- HALAMAN 2: PESAN PANJANG ---
 elif st.session_state.page == "pesan":
-    html_pesan = """
-    <h2 style='text-align:center; color:#FF69B4;'>💌 Pesan Panjang untuk Ratih</h2>
-    <div class='message-box'>
-        <p>Ratih, selamat ulang tahun yang ke-22 🎂</p>
+    html_pesan = """<h2 style='text-align:center; color:#FF69B4;'>💌 Pesan Panjang untuk Ratih</h2>
+<div class='message-box'>
+<p>Ratih, selamat ulang tahun yang ke-22 🎂</p>
 
-        <p>22 tahun bukan sekadar angka. Itu adalah kumpulan momen, tawa, air mata, perjuangan, dan kebahagiaan yang sudah kamu lalui dengan luar biasa.
-        Kamu tumbuh menjadi pribadi yang kuat, penuh kasih, dan menginspirasi orang-orang di sekitarmu.</p>
+<p>22 tahun bukan sekadar angka. Itu adalah kumpulan momen, tawa, air mata, perjuangan, dan kebahagiaan yang sudah kamu lalui dengan luar biasa.
+Kamu tumbuh menjadi pribadi yang kuat, penuh kasih, dan menginspirasi orang-orang di sekitarmu.</p>
 
-        <p>Di usia ini, semoga semua langkahmu selalu dipenuhi keberanian untuk mengejar mimpi.
-        Semoga kamu tidak pernah kehilangan senyum yang membuat dunia di sekitarmu terasa hangat.</p>
+<p>Di usia ini, semoga semua langkahmu selalu dipenuhi keberanian untuk mengejar mimpi.
+Semoga kamu tidak pernah kehilangan senyum yang membuat dunia di sekitarmu terasa hangat.</p>
 
-        <p>Terima kasih sudah menjadi dirimu sendiri — apa adanya, tulus, dan selalu berusaha memberi yang terbaik untuk orang lain.
-        Semoga kebahagiaan datang tanpa kamu minta, dan cinta selalu menemukanmu di setiap perjalanan hidupmu. 💖</p>
+<p>Terima kasih sudah menjadi dirimu sendiri — apa adanya, tulus, dan selalu berusaha memberi yang terbaik untuk orang lain.
+Semoga kebahagiaan datang tanpa kamu minta, dan cinta selalu menemukanmu di setiap perjalanan hidupmu. 💖</p>
 
-        <p style='text-align:center; font-weight:bold; color:#FF69B4; font-size:20px;'>
-        Selamat ulang tahun sekali lagi, Ratih. Dunia lebih indah dengan adanya kamu. 🌸
-        </p>
-    </div>
-    """
+<p style='text-align:center; font-weight:bold; color:#FF69B4; font-size:20px;'>
+Selamat ulang tahun sekali lagi, Ratih. Dunia lebih indah dengan adanya kamu. 🌸
+</p>
+</div>"""
+
     st.markdown(html_pesan, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.button("⬅️ Kembali ke Ucapan 🎂", on_click=lambda: go_to("ucapan"))
